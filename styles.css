@@ -1,0 +1,9 @@
+body {
+    background-image: url("images/end-of-pontoon-overwater.jpg");
+    background-size: 100vw 100vh;
+   background-attachment: fixed;
+}
+
+h1 {
+    align-items: center;
+}
