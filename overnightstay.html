@@ -85,7 +85,58 @@
             </div>
         </div>
     </div>
-    <fieldset class="plannerBg">
+    <!--navbar close-->
+    
+  <div class="col-md-10 mx-auto col-lg-5">
+    <h1>Overnight stay Planner:</h1>
+    <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="enterName" placeholder="enterNamehere" maxlength="30"
+              required>
+            <label for="floatingInput">Name:</label>
+          </div>
+          <!--next input-->
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" maxlength="30"
+          required>
+        <label for="floatingInput">Email address</label>
+      </div>
+      <!--next input-->
+      <div class="form-floating mb-3">
+        <p>Days of visit (1-28):</p>
+      <input id="daysVisit" type="number" maxlength="30" required>
+      <label for="daysVisit"></label>
+      </div>
+    <!--next input-->
+    <p>Select the Room type you'd want:</p>
+    <input type="radio" id="queenBed" name="queenBed">
+    <label for="queenBed">Queen</label><br>
+    <input type="radio" id="kingBed" name="kingBed">
+    <label for="GPS">King</label><br>
+    <input type="radio" id="2Bedroom" name="2Bedroom">
+    <label for="roadAssist">2-Bedroom Suite</label><br>
+    <br>
+    <p>Number of adults visiting (1-4):</p>
+    <input type="number" id="numberOfAdults"><br>
+    <p>Number of kids visiting (1-4):</p>
+    <input type="number" id="numberOfAffection"><br><br>
+    <p>Discounts:</p>
+    <input type="radio" id="discountSenior" name="discountSenior">
+    <label for="discountSenior">AAA/Senior (10%):</label><br> 
+    <input type="radio" id="discountMilitary" name="discountMilitary">
+    <label for="discountMilitary">Military (20%): name</label>
+
+
+      <button class="w-100 btn btn-lg btn-dark" type="submit">Submit</button>
+
+      <a href="user-registration.html"></a>
+      <hr class="my-4">
+      <small class="text-body-secondary">By clicking Sign up, you agree to the terms of
+        use.<!--link to user-registration.html--> <br> Don't have an
+        account?<a href="user-registration.html"> Create one!</a></small>
+    </form>
+ 
+    <!--<fieldset class="plannerBg">
         <legend class="overnightPLanner">Overnight stay planner:</legend>
         <p>Enter Name:</p>
         <input id="enterName" type="text">
@@ -93,7 +144,7 @@
         <input id="enterEmail" type="email">
         <p>Days visiting:</p>
         <input id="daysVisit" type="number">
-        <input id=""
+        <input id=""-->
 
     </fieldset>
     <script src="index.js"></script>
