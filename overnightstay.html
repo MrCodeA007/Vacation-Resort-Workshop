@@ -109,7 +109,7 @@
       <!--next input-->
       <div class="form-floating mb-3">
         <p>Days of visit (1-28):</p>
-      <input id="daysVisit" type="number" maxlength="30" required>
+      <input id="daysVisit" type="number">
       <label for="daysVisit"></label>
       </div>
     <!--next input-->
@@ -117,9 +117,9 @@
     <input type="radio" id="queenBed" name="queenBed">
     <label for="queenBed">Queen</label><br>
     <input type="radio" id="kingBed" name="kingBed">
-    <label for="GPS">King</label><br>
+    <label for="kingBed">King</label><br>
     <input type="radio" id="2Bedroom" name="2Bedroom">
-    <label for="roadAssist">2-Bedroom Suite</label><br>
+    <label for="2Bedroom">2-Bedroom Suite</label><br>
     <br>
     <p>Number of adults visiting (1-4):</p>
     <input type="number" id="numberOfAdults"><br>
@@ -132,24 +132,12 @@
     <label for="discountMilitary">Military (20%): name</label>
 
 
-      <button class="w-100 btn btn-lg btn-dark" type="submit">Submit</button>
+      <button class="w-100 btn btn-lg btn-dark" type="submit" id="estimateCost">Estimate Stay Cost</button>
+      </form>
+      </div>
+      
 
-      <a href="user-registration.html"></a>
-      <hr class="my-4">
-      <small class="text-body-secondary">By clicking Submit, you agree to the terms of
-        use.<br>
- 
-    <!--<fieldset class="plannerBg">
-        <legend class="overnightPLanner">Overnight stay planner:</legend>
-        <p>Enter Name:</p>
-        <input id="enterName" type="text">
-        <p>Enter Email:</p>
-        <input id="enterEmail" type="email">
-        <p>Days visiting:</p>
-        <input id="daysVisit" type="number">
-        <input id=""-->
-
-    </fieldset>
+   
     <script src="index.js"></script>
 </body>
 
