@@ -1,11 +1,11 @@
 `use strict`;
 function onSubmitbuttonClickedFunction() {
-  console.log(`click`);
+  stayTotalEl.innerHTML= console.log(`click`);
 }
 
 const submitEl = document.getElementById(`estimateCost`);
 submitEl.onclick = onSubmitbuttonClickedFunction;
-
+//----------------------------------------------------------------------
 function getRoomRate(checkInDate, roomType) {
   const monthNumber = checkInDate.getMonth();
   const isOnSeason = monthNumber >= 5 && monthNumber <= 7;
@@ -25,6 +25,8 @@ function getRoomRate(checkInDate, roomType) {
   //const isOnSeason =
 }
 
+const stayTotalEl = document.getElementById(`stayTotal`)
+const checkInDate = document.getElementById(`checkIn`);
 const onseasonDate = new Date(`2023-07-01`);
 const offseasonDate = new Date(`2023-02-01`);
 getRoomRate(onseasonDate);

@@ -114,11 +114,11 @@
       </div>
     <!--next input-->
     <p>Select the Room type you'd want:</p>
-    <input type="radio" id="queenBed" name="queenBed">
+    <input type="radio" id="queenBed" name="roomType">
     <label for="queenBed">Queen</label><br>
-    <input type="radio" id="kingBed" name="kingBed">
+    <input type="radio" id="kingBed" name="roomType">
     <label for="kingBed">King</label><br>
-    <input type="radio" id="2Bedroom" name="2Bedroom">
+    <input type="radio" id="2Bedroom" name="roomType">
     <label for="2Bedroom">2-Bedroom Suite</label><br>
     <br>
     <p>Number of adults visiting (1-4):</p>
@@ -133,11 +133,17 @@
 
 
       <button class="w-100 btn btn-lg btn-dark" type="submit" id="estimateCost">Estimate Stay Cost</button>
+      <br><br>
+      <table>
+        <tr>
+        <th>Stay Total:</th><td id="stayTotal"></td>
+        </tr>
+        </table>
       </form>
       </div>
       
 
-   
+      <footer> <small>Copyright © 2023 Heavenly Bora Bora Resort. All Rights Reserved.</small></footer>
     <script src="index.js"></script>
 </body>
 
